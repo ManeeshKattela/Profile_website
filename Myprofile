@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maneesh Resume</title>
+
+    <style>
+
+    .table1{
+
+        border-style:solid;
+
+        border-width:2px;
+
+        border-color: blue;
+
+    }
+
+    .table2{
+
+        border-style:double;
+
+        border-width:2px;
+
+        border-color: blueviolet;
+
+    }
+
+    th,td{
+
+        text-align: center;
+
+        border-style:solid;
+
+        border-width:2px;
+
+        border-color: rgb(52, 184, 60);
+
+    }
+
+    h1{
+
+        text-align: center;
+
+        font-style: italic;
+
+    }
+
+    dt{
+
+        font-style: italic;
+
+    }
+
+    footer{
+
+        padding: 5px;
+
+        font-size:x-small;
+
+        text-align: center;
+
+        background-color: rgb(108, 116, 120);
+
+       
+
+    }
+
+    section{
+
+        padding: 10px;
+
+        border: 1px solid black;
+
+        margin: 10px;
+
+    }
+
+    </style>
+
+ 
+
+</head>
+
+<body>
+
+    <H1 style="font-style:oblique;">MY Resume</H1>
+
+    <nav>
+
+        <ul style="list-style-type:;">
+
+            <li><a href="#Bio">About Me</a></li>
+
+            <li><a href="#Edu">Education</a></li>
+
+            <li><a href="#Exp">Experience</a></li>
+
+            <li><a href="#Ski">Skills</a></li>
+
+            <li><a href="#Con">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <header>
+
+        <h1>Maneesh Kattela</h1>
+
+        <img src="1069907.jpg" alt="Maneesh Image" style="padding:10px;width: 100px; height: 100px;">
+
+    </header>
+
+ 
+
+    <section id="Bio">
+
+        <h2>Bio Data</h2>
+
+        <table class="table1">
+
+            <tr>
+
+                <th>Name</th>
+
+                <td>Kattela Maneesh</td>
+
+            </tr>
+
+            <tr>
+
+                <th>DOB</th>
+
+                <td>20/12/2002</td>
+
+            </tr>
+
+            <tr>
+
+                <th>Age</th>
+
+                <td>22</td>
+
+            </tr>
+
+            <tr>
+
+                <th>Gender</th>
+
+                <td>Male</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <section id="Edu">
+
+        <h2>Education</h2>
+
+        <dl>
+
+            <dt>Degree</dt>
+
+            <dd> B-Tech</dd>
+
+            <dd>ECE</dd>
+
+            <dd>Anurag university</dd>
+
+            <dt>Intermediate</dt>
+
+            <dd>MPC</dd>
+
+            <dd>Sri Chaitanya Junior Kalasala</dd>
+
+            <dt>SSC</dt>
+
+            <dd> Vidya Kiran High School</dd>
+
+            <dd>Ghatkesar</dd>
+
+        </dl>
+
+    </section>
+
+    <section id="Exp">
+
+        <h2>My Experiences</h2>
+
+        <table class="table2">
+
+            <tr>
+
+                <th></th>
+
+                <th>Company Name</th>
+
+                <th>Role</th>
+
+                <th>Working years</th>
+
+            </tr>
+
+            <tr>
+
+                <td>1</td>
+
+                <td>Tech Mahindra</td>
+
+                <td>ASE</td>
+
+                <td>2</td>
+
+            </tr>
+
+            <tr>
+
+                <td>2</td>
+
+                <td>Infosys</td>
+
+                <td>Data engineer</td>
+
+                <td>1</td>
+
+            </tr>            
+
+            <tr>
+
+                <td>3</td>
+
+                <td>Wipro</td>
+
+                <td>SDE</td>
+
+                <td>3</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <section id="Ski">
+
+        <h2>My skills</h2>
+
+        <ul style="list-style-type: lower-latin;">
+
+            <li>Python</li>
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>Javascript</li>
+
+            <li>Bootstrap</li>
+
+        </ul>
+
+    </section>
+
+    <section id="Con">
+
+        <h2>Contact Me</h2>
+
+        <p>
+
+            Mobile No: 8639634967
+
+            <br>
+
+            Email= <a href="mailto:MK001069907@TECHMAHINDRA.COM"> Click here</a>
+
+        </p>
+
+    </section>
+
+    <footer>
+
+        <p>
+
+            Copyright Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet impedit repudiandae aut ad veniam fugiat quasi sunt.
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
